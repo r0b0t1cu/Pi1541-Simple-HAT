@@ -74,7 +74,7 @@ This HAT runs the **Pi1541** firmware by Steve White. You do not need to compile
 
 3. Copy the Pi1541 release files to the root of the SD card.
 
-4. Copy the **`config.txt`** file from this repository to the root of the SD card (it contains the correct GPIO pin mapping and display configuration for this HAT).
+4. Copy the **`options.txt`** file from this repository to the root of the SD card (it contains the correct GPIO pin mapping and display configuration for this HAT).
 
 5. Add your disk images (`.d64`, `.g64`, `.nib`, `.tap`, etc.) to the SD card — you can organise them in folders.
 
@@ -90,6 +90,8 @@ This HAT runs the **Pi1541** firmware by Steve White. You do not need to compile
 4. **Solder the level shifter module** — pin headers on both sides, fits into the U1 footprint.
 5. **Solder buttons, LEDs, buzzer, and IEC connector(s)**.
 6. **Fit the OLED** — connect via the I2C header with a short 4-wire cable.
+
+![PCB](IMG_5820.jpg)
 
 ---
 

@@ -13,8 +13,6 @@ Pi1541 turns a Raspberry Pi into a hardware-accurate 1541 emulator that loads `.
 The design is intentionally minimal — no SMD components beyond the connectors and passives, uses a widely available logic level converter module, and gives you flexibility on the IEC connector (DIN-6 socket or plain pin header, your choice).
 
 ---
-If you enjoy my projects and would like to support my work, you can do so through PCBWay. Every bit of support is appreciated! <a href="https://www.pcbway.com/project/shareproject/Pi1541Simple_HAT_6c4ce153.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
----
 
 ## Features
 
@@ -84,9 +82,19 @@ This HAT runs the **Pi1541** firmware by Steve White. You do not need to compile
 
 ---
 
+If you enjoy my projects and would like to support my work, you can do so through PCBWay. You can also order the PCBs for this project directly from the link below. Every bit of support is appreciated!
+
+<p>
+  <a href="https://www.pcbway.com/project/shareproject/Pi1541Simple_HAT_6c4ce153.html">
+    <img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCBWay — Support my projects" />
+  </a>
+</p>
+
+---
+
 ## Building the PCB
 
-1. **Order the PCB** — use the Gerber files in `gerbers/`. Standard 2-layer 1.6mm FR4 works fine. JLCPCB, PCBWay, and similar services all work.
+1. **Order the PCB** — use the Gerber files in `gerbers/`. Standard 2-layer 1.6mm FR4 works fine. PCBWay, JLCPCB and similar services all work.
 2. **Solder passives first** — resistors, jumper headers.
 3. **Solder the GPIO header** — use a 40-pin female header so the HAT sits on top of the Pi.
 4. **Solder the level shifter module** — pin headers on both sides, fits into the U1 footprint.

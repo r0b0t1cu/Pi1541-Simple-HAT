@@ -13,6 +13,8 @@ Pi1541 turns a Raspberry Pi into a hardware-accurate 1541 emulator that loads `.
 The design is intentionally minimal — no SMD components beyond the connectors and passives, uses a widely available logic level converter module, and gives you flexibility on the IEC connector (DIN-6 socket or plain pin header, your choice).
 
 ---
+<a href="https://www.pcbway.com/project/shareproject/Pi1541Simple_HAT_6c4ce153.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+---
 
 ## Features
 
